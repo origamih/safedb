@@ -1,0 +1,30 @@
+{
+  "name": "safedb",
+  "version": "1.0.0",
+  "description": "Typescript high level class to typesafe your database query, accepting knex as query-builder",
+  "main": "dist/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/origamih/safedb.git"
+  },
+  "keywords": [
+    "knex",
+    "database",
+    "querybuilder",
+    "typesafe"
+  ],
+  "author": "Huy Tran",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/origamih/safedb/issues"
+  },
+  "homepage": "https://github.com/origamih/safedb#readme",
+  "dependencies": {
+    "knex": "^0.20.13"
+  }
+}
