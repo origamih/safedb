@@ -25,6 +25,6 @@
   },
   "homepage": "https://github.com/origamih/safedb#readme",
   "dependencies": {
-    "knex": "^0.20.13"
+    "knex": "^2.4.0"
   }
 }
